@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { Router, Route, Link } from 'react-router-dom';
+import { Layout, Typography, Space } from 'antd;'
 
 const App = () => {
   return (
