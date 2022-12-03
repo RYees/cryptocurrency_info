@@ -12,7 +12,7 @@ import React from 'react'
   return (
     <div className='app'>
         <div className='navbar'>
-
+            <h1>work</h1>
         </div>
 
         <div className='main'>
