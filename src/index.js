@@ -5,16 +5,16 @@ import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import App from './App';
-// import store from './app/store';
+import store from './app/store';
 
 import 'antd/dist/antd.js';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      {/* <Provider store={store}> */}
+      <Provider store={store}>
         <App />
-      {/* </Provider> */}
+      </Provider>
     </Router>
   </React.StrictMode>,
   document.getElementById('root'),
